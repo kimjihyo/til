@@ -58,8 +58,8 @@ async function syncDb(dbId, dbName) {
     await syncDb(process.env.KNOU_DB_ID, 'knou');
 
     const readme = [];
-    readme.push('#TIL');
-    readme.push(`Total ${tilInfo.pages.length} TIL's created`);
+    readme.push('# TIL');
+    readme.push(`### Total ${tilInfo.pages.length} TIL's created`);
     for (tag of tilInfo.tags) {
         readme.push(`[${tag}](${path.join('pages/til', tag.replace(' ', '%20'))})`);
     }
