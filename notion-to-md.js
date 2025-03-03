@@ -64,5 +64,5 @@ async function syncDb(dbId, dbName) {
         readme.push(`[${tag}](${path.join('pages/til', tag)})`);
     }
 
-    fs.writeFileSync(path.join(__dirname, 'README.md'), readme.join('\n'), "utf-8")
+    fs.writeFileSync(path.join(__dirname, 'README.md'), readme.join('</br>'), "utf-8")
 })();

@@ -1,13 +1,1 @@
-#TIL
-Total 29 TIL's created
-[Cloud](pages/til/Cloud)
-[Vim](pages/til/Vim)
-[Network](pages/til/Network)
-[OS](pages/til/OS)
-[TODO](pages/til/TODO)
-[Algorithm](pages/til/Algorithm)
-[Git](pages/til/Git)
-[Database](pages/til/Database)
-[Data Structure](pages/til/Data Structure)
-[Notion](pages/til/Notion)
-[VS Code](pages/til/VS Code)
+#TIL</br>Total 29 TIL's created</br>[Cloud](pages/til/Cloud)</br>[Vim](pages/til/Vim)</br>[Network](pages/til/Network)</br>[OS](pages/til/OS)</br>[TODO](pages/til/TODO)</br>[Algorithm](pages/til/Algorithm)</br>[Git](pages/til/Git)</br>[Database](pages/til/Database)</br>[Data Structure](pages/til/Data Structure)</br>[Notion](pages/til/Notion)</br>[VS Code](pages/til/VS Code)
