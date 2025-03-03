@@ -14,41 +14,24 @@ if (!process.env.NOTION_TOKEN || !process.env.TIL_DB_ID) {
 const notion = new Client({ auth: process.env.NOTION_TOKEN });
 const n2m = new NotionToMarkdown({ notionClient: notion });
 
-// function ensureDirectory(directoryName) {
-//     const directoryPath = path.join(__dirname, directoryName);
-//     if (!fs.existsSync(directoryPath)) {
-//         fs.mkdirSync(directoryPath, { recursive: true });
-//         console.log(`Directory ${directoryName} created.`);
-//     } else {
-//         console.log(`Directory ${directoryName} already exists.`);
-//     }
-//     return directoryPath;
-// }
-
-// function writeToFile(path, text) {
-//     try {
-//         fs.writeFileSync(filePath, text, 'utf-8');
-//         console.log(`File ${fileName} created.`);
-//     } catch (error) {
-//         console.error('An error occurred:', error.message);
-//         return null;
-
-//     }
-//     return fileName;
-// }
-
 async function syncDb(dbId, dbName) {
+    const tags = new Set();
+    const pageList = [];
+
     // sync til pages
     const pages = await notion.databases.query({ database_id: dbId});
     for (const page of pages.results) {
         try {
             const tag = page.properties.Tags.multi_select[0].name;
             const title = page.properties.Name.title[0].plain_text.replace(/\//g, '-');
-            const dirPath = path.join(__dirname, `pages/${dbName}/${tag}`);
+            const relPath = `pages/${dbName}/${tag}`;
+            const dirPath = path.join(__dirname, relPath);
             const fileName = `${title}.md`; 
             const fullFilePath = path.join(dirPath, fileName);
 
-            // check if dir path exists
+            tags.add(tag);
+            pageList.push({ link: path.join(relPath, fileName), title, tag });
+
             if (!fs.existsSync(dirPath)) {
                 fs.mkdirSync(dirPath, { recursive: true});
                 console.log(`created a directory: ${dirPath}`)
@@ -63,10 +46,23 @@ async function syncDb(dbId, dbName) {
             console.error(error);
         }
     }
+    return {
+        tags: tags.values(),
+        pages: pageList,
+    }
 }
 
 
 (async () => {
-    await syncDb(process.env.TIL_DB_ID, 'til');
+    const tilInfo = await syncDb(process.env.TIL_DB_ID, 'til');
     await syncDb(process.env.KNOU_DB_ID, 'knou');
+
+    const readme = [];
+    readme.push('#TIL');
+    readme.push(`Total ${tilInfo.pages.length} TIL's created`);
+    for (tag of tilInfo.tags) {
+        readme.push(`[${tag}](${path.join('pages/til', tag)})`);
+    }
+
+    fs.writeFileSync(path.join(__dirname, 'README.md'), readme.join('\n'), "utf-8")
 })();
