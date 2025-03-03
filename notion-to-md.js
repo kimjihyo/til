@@ -61,7 +61,7 @@ async function syncDb(dbId, dbName) {
     readme.push('#TIL');
     readme.push(`Total ${tilInfo.pages.length} TIL's created`);
     for (tag of tilInfo.tags) {
-        readme.push(`[${tag.replace(' ', '-')}](${path.join('pages/til', tag)})`);
+        readme.push(`[${tag}](${path.join('pages/til', tag.replace(' ', '%20'))})`);
     }
 
     fs.writeFileSync(path.join(__dirname, 'README.md'), readme.join(' </br>\n'), "utf-8")
