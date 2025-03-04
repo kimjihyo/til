@@ -39,7 +39,10 @@ async function syncDb(dbId, dbName) {
         pagesByTag[tag] = [];
       }
 
-      pagesByTag[tag].push({ title, href: path.join(relPath, fileName) });
+      pagesByTag[tag].push({
+        title,
+        href: path.join(relPath, fileName).replaceAll(" ", "%20"),
+      });
 
       if (!fs.existsSync(dirPath)) {
         fs.mkdirSync(dirPath, { recursive: true });
