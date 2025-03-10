@@ -1,6 +1,7 @@
 # TIL </br>
-Total 30 TIL's created </br>
+Total 31 TIL's created </br>
 ## Categories </br>
+[CSS](pages/til/CSS) </br>
 [VS Code](pages/til/VS%20Code) </br>
 [Cloud](pages/til/Cloud) </br>
 [Vim](pages/til/Vim) </br>
@@ -12,6 +13,8 @@ Total 30 TIL's created </br>
 [Database](pages/til/Database) </br>
 [Data Structure](pages/til/Data%20Structure) </br>
 [Notion](pages/til/Notion) </br>
+### CSS </br>
+[caret-color property](pages/til/CSS/caret-color%20property.md) </br>
 ### VS Code </br>
 [How to add custom fonts to code-server](pages/til/VS%20Code/How%20to%20add%20custom%20fonts%20to%20code-server.md) </br>
 [VSCode 의 tasks.json](pages/til/VS%20Code/VSCode%20의%20tasks.json.md) </br>
