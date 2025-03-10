@@ -1,6 +1,7 @@
 # TIL </br>
-Total 29 TIL's created </br>
+Total 30 TIL's created </br>
 ## Categories </br>
+[VS Code](pages/til/VS%20Code) </br>
 [Cloud](pages/til/Cloud) </br>
 [Vim](pages/til/Vim) </br>
 [Network](pages/til/Network) </br>
@@ -11,7 +12,9 @@ Total 29 TIL's created </br>
 [Database](pages/til/Database) </br>
 [Data Structure](pages/til/Data%20Structure) </br>
 [Notion](pages/til/Notion) </br>
-[VS Code](pages/til/VS%20Code) </br>
+### VS Code </br>
+[How to add custom fonts to code-server](pages/til/VS%20Code/How%20to%20add%20custom%20fonts%20to%20code-server.md) </br>
+[VSCode 의 tasks.json](pages/til/VS%20Code/VSCode%20의%20tasks.json.md) </br>
 ### Cloud </br>
 [Vercel의 Serverless Server](pages/til/Cloud/Vercel의%20Serverless%20Server.md) </br>
 ### Vim </br>
@@ -49,6 +52,4 @@ Total 29 TIL's created </br>
 [이진 탐색 트리 (Binary Search Tree)](pages/til/Data%20Structure/이진%20탐색%20트리%20(Binary%20Search%20Tree).md) </br>
 [최소신장트리(Minimum Spanning Tree)](pages/til/Data%20Structure/최소신장트리(Minimum%20Spanning%20Tree).md) </br>
 ### Notion </br>
-[Mermaid로 다이어그램 그리기](pages/til/Notion/Mermaid로%20다이어그램%20그리기.md) </br>
-### VS Code </br>
-[VSCode 의 tasks.json](pages/til/VS%20Code/VSCode%20의%20tasks.json.md)
+[Mermaid로 다이어그램 그리기](pages/til/Notion/Mermaid로%20다이어그램%20그리기.md)
