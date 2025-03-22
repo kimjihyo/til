@@ -16,5 +16,8 @@ textarea { caret-color: transparent; }
 ```
 
 
-I restarted code-server, and wow—the annoying built-in Safari cursor is gone!
+I restarted code-server, and wow—the annoying built-in Safari cursor is gone
+
+
+zz
 

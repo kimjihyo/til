@@ -10,8 +10,8 @@ Here are steps to add custom fonts to your code-server
 1. Navigate to `/lib/code-server/lib/vscode/out/vs/code/browser/workbench`
 2. Create a folder to store your custom fonts. I named it as `fonts`
 3. Download the font file to the folder you just created. I chose JetBrains Mono. Here are steps to download the font from url on the command line interface.
-	1. `curl -OL <link-to-the-font-zip-file>`  -O flag is for writing output to a local file named like the remote file we get. And the -L flag is for making sure curl redo the request if the original url redirects to another location.
-	2. `unzip <the-file-name-downloaded>` This is the command to unzip the file you just downloaded.
+    1. `curl -OL <link-to-the-font-zip-file>`  -O flag is for writing output to a local file named like the remote file we get. And the -L flag is for making sure curl redo the request if the original url redirects to another location.
+    2. `unzip <the-file-name-downloaded>` This is the command to unzip the file you just downloaded.
 4. Create a CSS file, this will have @font-face rules for the custom fonts. I named the file as `fonts.css`
 5. Add @font-face rules in the CSS file. Here is an example of mine:
 

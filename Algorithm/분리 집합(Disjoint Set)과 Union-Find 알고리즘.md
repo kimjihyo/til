@@ -11,7 +11,7 @@
 위 조건은 분리 집합의 개수가 3개 이상일때도 만족한다.
 
 
-![IMG_0077.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/be468a48-6628-44e2-8c56-229edd5978f7/deec4933-919e-44c6-a2f0-083b7c24c799/IMG_0077.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666ALA4QCP%2F20250303%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250303T133630Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJ7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDAf0soxcdeadsfxCOmUjlP3RFHlJdlJM0cNqR2QVUh2QIgKdG7ud3s%2FGrBqnWZNKRbRvpeqGDauZoEaD%2FGuhZaBrIqiAQI1v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDFsma%2BO4GtszncnjhSrcAyUQ85To%2F03T1%2Bv0A0oJ8mXnCISvOLs%2Fd0d%2Fg65eos9HC%2By5x91K98xtlcs11uhQircdCgrm60%2FqaW5N%2By6OyIz106gmx8D1bFbt2Wb5X9PUhz5jw2K3uU3N%2BtsL9hZydE%2FLmSr16cDzEsi0CgM2cToem0py5wHnoum12uiF6c6OrPEvcirosiP1yMn38hNsNnXFIumJX%2F6KTkglwSPxnGr4CFTjw0SA65DZYyS2aesyNGvoMMg7ZUZoIo61Lo0AWWUNelnUXM5rHRV8UvAZMDLKfULb4P%2FP6lkwzvXIE%2FQRXo%2FUopOLYXXG8q7dD7IGYAfjABoPPqCOSb72HRD7CJI%2B%2B4WLkuzwf4nikF1ue%2FFRpNZw9qptvkt2VqQhnXt90grISBEGvVEkwAFtyZcQmB9HXo4e5kH5BuGeC%2FUeODO4Su%2Bto4%2BPSjYIDwdrhb%2Fc5zcOiw43uH6dpaETI%2BDjGreZmnRDuPzuq3TofcrV9PfJZYs8P2X1x4PqdTZzSHzYReRwTlTNs%2BG4SsGhmPSblrd44ldLyhLUFArQsUqP4Z4wQaqikcBob9pnBT5Jwbde2N%2BvBD%2FlJudtsVbBnCcd1MrOOq%2FI1arxTftF6XMFy8rMhHtuhukeRLBR1KL8MNXZlr4GOqUBM4a2cJ3nwzLVSJz%2F7wyWeyZsNxr1JhpruA9tN19GaIiU99JgIvPM5%2BXJl6fyYJztuXm9NB3rgO2QjJr6ZlB2ahR0IO2eZ%2FPpvYX0G077WfdEk77a8oikz%2FabIES8RZuahZbAyt430PozQDpoVuAzxXwSScBWbevNZWPmj7ICYghYpbNvxljsgs%2BzRolBLwEq50Y4AzYNSI4d%2FE3xMErdHk%2Bh%2FF8k&X-Amz-Signature=077f397b534ad22e17bb8c9286ff38c959b0baa36c8f06928892e8905dd18b40&X-Amz-SignedHeaders=host&x-id=GetObject)
+![IMG_0077.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/be468a48-6628-44e2-8c56-229edd5978f7/deec4933-919e-44c6-a2f0-083b7c24c799/IMG_0077.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YVSGG7TX%2F20250322%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250322T123511Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCXVzLXdlc3QtMiJHMEUCIFZfckfDPVcd6iIXJaHO5ERWO3EpgA3Ox6MAKIOVkGINAiEA%2BWlfLwvVE3DPqDlUwmXhVI70IuFSMQJVPXEsM%2Bkwwz0qiAQIvP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDLNMY71mhpsxu3OASCrcAwSa5PujLPBNkmnThMNMZ3flZwrnyJ8M5LyBvdEw30pdF9OjIbozImlwi61AULjHe5IFkgEIfLZXvapplaZBz0bjBqMmwEZ0NEeoKl%2BgIaYTrgaiOGHQsJsncZHdEoJqPqVgODo4nfXmAunGAbw%2FdnoDMsKxt0Rqts2P6l%2B%2BH2tdCL6MHtkqdFvi0hmbwx0OobgGp1tljMt9IvEXLtJbTaZp0fRNUPpAmVtQNT59J9fX2XfJqiwzRH%2FNwggQFUp0UfsN3dvdzjiP726qb1F%2BNzyrTCab%2F88WvNLhpmN9TVPew3Scb28U8bqVkYlsLOB2EXfpsylTwFSsFXFQd2idGx53Zn7ZI0Y00tBDbsfitRXW0vdH6qgVPQlQiq%2FzKVDFIsUJ3E%2FD23FmBYbX1mU7ldvw%2By8DXvUUjTAofo%2F%2BkuSAsgUgpO2dyxvWQgDzL622e07icxVwkOZFtk%2Bmmlm%2FDpuk5dKXQI7xuPVilZ%2BuZePQweebjv9baNygz3Et8z4VgFMmVWiRuF8xSkJe7DADPKoJc1yi9Wu%2Fr6UMBhB0Q6AZXeeP7u3nEjzimTE9MROL36r0gYnCPWTSMttRwZBP0an4aRjfFi0dIhkWe%2FNm263%2B0lJ1ikRF4MZRgt0rMMyt%2Br4GOqUBAt%2FUnrvR2rxrwSKhYtzqoASZurgDIwRS%2BGN0F2furynM1vzPiZAhUOCZHr5w8j2ZTz8E41igomyanJs2RZ7K0zZQFW3%2F1IupuEOrTsxWe3eNkWO4tL8QQ%2FzSJ7KZD9awX%2BHHQfvLbF3MfSe1cmCwaDTKGB2V2rcp%2Fy06GOk5ZVdaTNg%2Bb0ETWyYij2Cmym%2ByaqEjxA2fdedoFOgKXPQ8xdpciELy&X-Amz-Signature=f4da876e4faa931d71a0a358540df2e9db069f212e3365a012fe58c0de9018f5&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 # Union-Find
@@ -29,16 +29,16 @@ Union-Find 알고리즘은 여러 개의 노드가 존재할 때 두 개의 노�
 ## Union-Find의 사용 예시
 
 - Undirected graph 에서 사이클 형성 여부를 판단하기 위해 사용할 수 있다.
-	- Kruskal 알고리즘에서 사이클 여부를 판단하기 위해 사용한다.
+    - Kruskal 알고리즘에서 사이클 여부를 판단하기 위해 사용한다.
 
 ##  트리들(Forest)을 이용하여 구현
 
 - 초기화
-	- 트리의 루트 노드를 저장하는 배열 parents 를 선언 후, 각 노드에 대해 자기 자신을 루트 노드로 초기화
+    - 트리의 루트 노드를 저장하는 배열 parents 를 선언 후, 각 노드에 대해 자기 자신을 루트 노드로 초기화
 - 찾기(find) 연산
-	- 어떤 원소 a가 주어질때 a가 속한 트리의 루트 노드를 반환
+    - 어떤 원소 a가 주어질때 a가 속한 트리의 루트 노드를 반환
 - 합치기(merge) 연산
-	- 각 노드의 루트 노드를 찾은 다음, 한 트리의 루트를 다른 트리의 루트의 자식으로 만들면 된다.
+    - 각 노드의 루트 노드를 찾은 다음, 한 트리의 루트를 다른 트리의 루트의 자식으로 만들면 된다.
 
 ```c++
 // 노드가 10개 있을때
@@ -77,7 +77,7 @@ void merge(int u, int v) {
 위 방법의 시간 복잡도는 트리의 높이에 의해서 결정된다. 트리가 한쪽으로 기울어 져서 트리의 장점을 전혀 살릴 수 없는 연결 리스트와 같은 형태 (skewed binary tree)가 된다면, Union과 Find 연산 모두 O(n)이 되어 버릴 수 있다.
 
 
-![IMG_0080.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/be468a48-6628-44e2-8c56-229edd5978f7/6898599a-ca28-4f80-8c76-9d476b4f9cfe/IMG_0080.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666ALA4QCP%2F20250303%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250303T133630Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJ7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDAf0soxcdeadsfxCOmUjlP3RFHlJdlJM0cNqR2QVUh2QIgKdG7ud3s%2FGrBqnWZNKRbRvpeqGDauZoEaD%2FGuhZaBrIqiAQI1v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDFsma%2BO4GtszncnjhSrcAyUQ85To%2F03T1%2Bv0A0oJ8mXnCISvOLs%2Fd0d%2Fg65eos9HC%2By5x91K98xtlcs11uhQircdCgrm60%2FqaW5N%2By6OyIz106gmx8D1bFbt2Wb5X9PUhz5jw2K3uU3N%2BtsL9hZydE%2FLmSr16cDzEsi0CgM2cToem0py5wHnoum12uiF6c6OrPEvcirosiP1yMn38hNsNnXFIumJX%2F6KTkglwSPxnGr4CFTjw0SA65DZYyS2aesyNGvoMMg7ZUZoIo61Lo0AWWUNelnUXM5rHRV8UvAZMDLKfULb4P%2FP6lkwzvXIE%2FQRXo%2FUopOLYXXG8q7dD7IGYAfjABoPPqCOSb72HRD7CJI%2B%2B4WLkuzwf4nikF1ue%2FFRpNZw9qptvkt2VqQhnXt90grISBEGvVEkwAFtyZcQmB9HXo4e5kH5BuGeC%2FUeODO4Su%2Bto4%2BPSjYIDwdrhb%2Fc5zcOiw43uH6dpaETI%2BDjGreZmnRDuPzuq3TofcrV9PfJZYs8P2X1x4PqdTZzSHzYReRwTlTNs%2BG4SsGhmPSblrd44ldLyhLUFArQsUqP4Z4wQaqikcBob9pnBT5Jwbde2N%2BvBD%2FlJudtsVbBnCcd1MrOOq%2FI1arxTftF6XMFy8rMhHtuhukeRLBR1KL8MNXZlr4GOqUBM4a2cJ3nwzLVSJz%2F7wyWeyZsNxr1JhpruA9tN19GaIiU99JgIvPM5%2BXJl6fyYJztuXm9NB3rgO2QjJr6ZlB2ahR0IO2eZ%2FPpvYX0G077WfdEk77a8oikz%2FabIES8RZuahZbAyt430PozQDpoVuAzxXwSScBWbevNZWPmj7ICYghYpbNvxljsgs%2BzRolBLwEq50Y4AzYNSI4d%2FE3xMErdHk%2Bh%2FF8k&X-Amz-Signature=0876a2145ce7d5d4e05083c234e196010eceb47b69081c0057cb285eb782a611&X-Amz-SignedHeaders=host&x-id=GetObject)
+![IMG_0080.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/be468a48-6628-44e2-8c56-229edd5978f7/6898599a-ca28-4f80-8c76-9d476b4f9cfe/IMG_0080.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YVSGG7TX%2F20250322%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250322T123511Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCXVzLXdlc3QtMiJHMEUCIFZfckfDPVcd6iIXJaHO5ERWO3EpgA3Ox6MAKIOVkGINAiEA%2BWlfLwvVE3DPqDlUwmXhVI70IuFSMQJVPXEsM%2Bkwwz0qiAQIvP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDLNMY71mhpsxu3OASCrcAwSa5PujLPBNkmnThMNMZ3flZwrnyJ8M5LyBvdEw30pdF9OjIbozImlwi61AULjHe5IFkgEIfLZXvapplaZBz0bjBqMmwEZ0NEeoKl%2BgIaYTrgaiOGHQsJsncZHdEoJqPqVgODo4nfXmAunGAbw%2FdnoDMsKxt0Rqts2P6l%2B%2BH2tdCL6MHtkqdFvi0hmbwx0OobgGp1tljMt9IvEXLtJbTaZp0fRNUPpAmVtQNT59J9fX2XfJqiwzRH%2FNwggQFUp0UfsN3dvdzjiP726qb1F%2BNzyrTCab%2F88WvNLhpmN9TVPew3Scb28U8bqVkYlsLOB2EXfpsylTwFSsFXFQd2idGx53Zn7ZI0Y00tBDbsfitRXW0vdH6qgVPQlQiq%2FzKVDFIsUJ3E%2FD23FmBYbX1mU7ldvw%2By8DXvUUjTAofo%2F%2BkuSAsgUgpO2dyxvWQgDzL622e07icxVwkOZFtk%2Bmmlm%2FDpuk5dKXQI7xuPVilZ%2BuZePQweebjv9baNygz3Et8z4VgFMmVWiRuF8xSkJe7DADPKoJc1yi9Wu%2Fr6UMBhB0Q6AZXeeP7u3nEjzimTE9MROL36r0gYnCPWTSMttRwZBP0an4aRjfFi0dIhkWe%2FNm263%2B0lJ1ikRF4MZRgt0rMMyt%2Br4GOqUBAt%2FUnrvR2rxrwSKhYtzqoASZurgDIwRS%2BGN0F2furynM1vzPiZAhUOCZHr5w8j2ZTz8E41igomyanJs2RZ7K0zZQFW3%2F1IupuEOrTsxWe3eNkWO4tL8QQ%2FzSJ7KZD9awX%2BHHQfvLbF3MfSe1cmCwaDTKGB2V2rcp%2Fy06GOk5ZVdaTNg%2Bb0ETWyYij2Cmym%2ByaqEjxA2fdedoFOgKXPQ8xdpciELy&X-Amz-Signature=511489cc33b821892e04705edc80bf5265a71c38c453e03de66eda139a8bd503&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 이러한 문제를 해결하기 위해 여러가지 방법들이 고안되어 있다. 그 중 간단한 것은 두 트리를 합칠때 항상 높이가 더 낮은 트리를 더 높은 트리 밑에 집어 넣으므로써 트리의 높이가 높아지는 상황을 방지하는것이다. (balnanced tree)
