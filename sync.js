@@ -74,6 +74,31 @@ async function sync() {
       console.error(error);
     }
   }
+
+  let readme = `
+# TIL
+
+> Today I Learned
+
+_${Array.from(categoryToPages.values()).length} TILs_
+
+### Categories
+`;
+
+  for (const category of categoryToPages.keys()) {
+    readme += `* [${category}](#${category.replaceAll(" ", "%20")})\n`;
+  }
+
+  for (const category of categoryToPages.keys()) {
+    readme += `\n### ${category}\n`;
+    for (const page of categoryToPages.get(category)) {
+      readme += `- [${page.title}](${page.href.replaceAll(" ", "%20")})\n`;
+    }
+  }
+
+  readme += "\n&copy; 2025 Jihyo Kim\n";
+
+  fs.writeFileSync(path.join(__dirname, "README.md"), readme, "utf-8");
 }
 
 sync();
