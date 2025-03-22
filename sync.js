@@ -80,7 +80,7 @@ async function sync() {
 
 > Today I Learned
 
-_${Array.from(categoryToPages.values()).length} TILs_
+_${Array.from(categoryToPages.values()).flat().length} TILs_
 
 ### Categories
 `;
