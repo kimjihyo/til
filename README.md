@@ -3,9 +3,10 @@
 
 > Today I Learned
 
-_31 TILs_
+_32 TILs_
 
 ### Categories
+* [pnpm](#pnpm)
 * [CSS](#CSS)
 * [VS Code](#VS%20Code)
 * [Cloud](#Cloud)
@@ -18,6 +19,9 @@ _31 TILs_
 * [Database](#Database)
 * [Data Structure](#Data%20Structure)
 * [Notion](#Notion)
+
+### pnpm
+- [pnpm은 무엇이 다른가](pnpm/pnpm은%20무엇이%20다른가.md)
 
 ### CSS
 - [caret-color property](CSS/caret-color%20property.md)
