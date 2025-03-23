@@ -36,7 +36,7 @@ async function sync() {
       // Cannot use a slash in a file name.
       const title = page.properties.Name.title[0].plain_text.replace(
         /\//g,
-        "-"
+        "-",
       );
       // Relative path to the md file.
       const href = `${category}/${title}.md`;
@@ -80,7 +80,13 @@ async function sync() {
 
 > Today I Learned
 
-_${Array.from(categoryToPages.values()).flat().length} TILs_
+A bunch of bite-sized brain dumps on random tech tidbits I stumble upon daily across different languages and frameworks. Too small for a full-blown blog post, but too good to let vanish into the void of my short-term memory.
+
+<br />
+
+I write TILs in both English and Korean, though mostly in Korean. I switch to English whenever I feel like giving my language skills a little workout.
+
+_I've learned ${Array.from(categoryToPages.values()).flat().length} things so far—some genuinely useful, others just fun facts to make me sound smarter in code reviews._
 
 ### Categories
 `;
