@@ -5,8 +5,6 @@
 
 A bunch of bite-sized brain dumps on random tech tidbits I stumble upon daily across different languages and frameworks. Too small for a full-blown blog post, but too good to let vanish into the void of my short-term memory.
 
-<br />
-
 I write TILs in both English and Korean, though mostly in Korean. I switch to English whenever I feel like giving my language skills a little workout.
 
 _I've learned 32 things so far—some genuinely useful, others just fun facts to make me sound smarter in code reviews._
