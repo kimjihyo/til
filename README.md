@@ -7,12 +7,12 @@ A bunch of bite-sized brain dumps on random tech tidbits I stumble upon daily ac
 
 I write TILs in both English and Korean, though mostly in Korean. I switch to English whenever I feel like giving my language skills a little workout.
 
-_I've learned 33 new things so far—some genuinely useful, others just fun facts to make me sound smarter in code reviews._
+_I've learned 34 new things so far—some genuinely useful, others just fun facts to make me sound smarter in code reviews._
 
 ### Categories
+* [CSS](#CSS)
 * [Markdown](#Markdown)
 * [pnpm](#pnpm)
-* [CSS](#CSS)
 * [VS Code](#VS%20Code)
 * [Cloud](#Cloud)
 * [Vim](#Vim)
@@ -25,14 +25,15 @@ _I've learned 33 new things so far—some genuinely useful, others just fun fact
 * [Data Structure](#Data%20Structure)
 * [Notion](#Notion)
 
+### CSS
+- [Oklch, RGB와 HSL의 뒤를 잇다](CSS/Oklch,%20RGB와%20HSL의%20뒤를%20잇다.md)
+- [caret-color property](CSS/caret-color%20property.md)
+
 ### Markdown
-- [.mdx라는 요오물](Markdown/.mdx라는%20요오물.md)
+- [Markdown + JSX = MDX](Markdown/Markdown%20+%20JSX%20=%20MDX.md)
 
 ### pnpm
 - [pnpm은 무엇이 다른가](pnpm/pnpm은%20무엇이%20다른가.md)
-
-### CSS
-- [caret-color property](CSS/caret-color%20property.md)
 
 ### VS Code
 - [How to add custom fonts to code-server](VS%20Code/How%20to%20add%20custom%20fonts%20to%20code-server.md)
