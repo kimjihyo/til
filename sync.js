@@ -84,7 +84,7 @@ A bunch of bite-sized brain dumps on random tech tidbits I stumble upon daily ac
 
 I write TILs in both English and Korean, though mostly in Korean. I switch to English whenever I feel like giving my language skills a little workout.
 
-_I've learned ${Array.from(categoryToPages.values()).flat().length} things so far—some genuinely useful, others just fun facts to make me sound smarter in code reviews._
+_I've learned ${Array.from(categoryToPages.values()).flat().length} new things so far—some genuinely useful, others just fun facts to make me sound smarter in code reviews._
 
 ### Categories
 `;
