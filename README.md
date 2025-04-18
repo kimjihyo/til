@@ -7,9 +7,10 @@ A bunch of bite-sized brain dumps on random tech tidbits I stumble upon daily ac
 
 I write TILs in both English and Korean, though mostly in Korean. I switch to English whenever I feel like giving my language skills a little workout.
 
-_I've learned 36 new things so far—some genuinely useful, others just fun facts to make me sound smarter in code reviews._
+_I've learned 37 new things so far—some genuinely useful, others just fun facts to make me sound smarter in code reviews._
 
 ### Categories
+* [gRPC](#gRPC)
 * [Spring](#Spring)
 * [CSS](#CSS)
 * [Markdown](#Markdown)
@@ -25,6 +26,9 @@ _I've learned 36 new things so far—some genuinely useful, others just fun fact
 * [Database](#Database)
 * [Data Structure](#Data%20Structure)
 * [Notion](#Notion)
+
+### gRPC
+- [Why is gRPC favored over REST API in microservices](gRPC/Why%20is%20gRPC%20favored%20over%20REST%20API%20in%20microservices.md)
 
 ### Spring
 - [Apache vs Nginx vs Tomcat vs Netty](Spring/Apache%20vs%20Nginx%20vs%20Tomcat%20vs%20Netty.md)
