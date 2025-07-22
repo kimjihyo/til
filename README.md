@@ -7,9 +7,11 @@ A bunch of bite-sized brain dumps on random tech tidbits I stumble upon daily ac
 
 I write TILs in both English and Korean, though mostly in Korean. I switch to English whenever I feel like giving my language skills a little workout.
 
-_I've learned 40 new things so far—some genuinely useful, others just fun facts to make me sound smarter in code reviews._
+_I've learned 46 new things so far—some genuinely useful, others just fun facts to make me sound smarter in code reviews._
 
 ### Categories
+* [Linux](#Linux)
+* [Network](#Network)
 * [React](#React)
 * [Emotion](#Emotion)
 * [Nginx](#Nginx)
@@ -21,7 +23,6 @@ _I've learned 40 new things so far—some genuinely useful, others just fun fact
 * [VS Code](#VS%20Code)
 * [Cloud](#Cloud)
 * [Vim](#Vim)
-* [Network](#Network)
 * [OS](#OS)
 * [TODO](#TODO)
 * [Algorithm](#Algorithm)
@@ -30,7 +31,21 @@ _I've learned 40 new things so far—some genuinely useful, others just fun fact
 * [Data Structure](#Data%20Structure)
 * [Notion](#Notion)
 
+### Linux
+- [심볼릭 링크 vs 하드 링크](Linux/심볼릭%20링크%20vs%20하드%20링크.md)
+- [파일 권한 이해하기](Linux/파일%20권한%20이해하기.md)
+- [Sudoers](Linux/Sudoers.md)
+- [Linux root 비밀번호 설정해야하나?](Linux/Linux%20root%20비밀번호%20설정해야하나?.md)
+
+### Network
+- [TCP 3-way handshake & TLS handshake](Network/TCP%203-way%20handshake%20&%20TLS%20handshake.md)
+- [Foward Proxy vs Reverse Proxy](Network/Foward%20Proxy%20vs%20Reverse%20Proxy.md)
+- [소켓 프로그래밍 - 개념](Network/소켓%20프로그래밍%20-%20개념.md)
+- [API Gateway vs Load Balancer](Network/API%20Gateway%20vs%20Load%20Balancer.md)
+- [HTTP-1.1 vs HTTP-2](Network/HTTP-1.1%20vs%20HTTP-2.md)
+
 ### React
+- [Comparison: React 19 SPA vs Next.js App Router (](React/Comparison:%20React%2019%20SPA%20vs%20Next.js%20App%20Router%20(.md)
 - [React 렌더링 과정 Deep Dive](React/React%20렌더링%20과정%20Deep%20Dive.md)
 
 ### Emotion
@@ -65,12 +80,6 @@ _I've learned 40 new things so far—some genuinely useful, others just fun fact
 
 ### Vim
 - [Neovim 세팅](Vim/Neovim%20세팅.md)
-
-### Network
-- [Foward Proxy vs Reverse Proxy](Network/Foward%20Proxy%20vs%20Reverse%20Proxy.md)
-- [소켓 프로그래밍 - 개념](Network/소켓%20프로그래밍%20-%20개념.md)
-- [API Gateway vs Load Balancer](Network/API%20Gateway%20vs%20Load%20Balancer.md)
-- [HTTP-1.1 vs HTTP-2](Network/HTTP-1.1%20vs%20HTTP-2.md)
 
 ### OS
 - [멀티스레드 프로그래밍의 흔한 실수들](OS/멀티스레드%20프로그래밍의%20흔한%20실수들.md)
