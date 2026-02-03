@@ -1,4 +1,4 @@
-# TIL
+# TIL - No Longer Maintained. Moved to Obsidian
 
 > Today I Learned
 
